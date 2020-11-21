@@ -12,7 +12,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_generate_demo_data_9955 IMPLEMENTATION.
+CLASS ZCL_GENERATE_DEMO_DATA_9955 IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
     " delete existing entries in the database table
     DELETE FROM zrap_atrav_9955.
@@ -72,5 +74,4 @@ CLASS zcl_generate_demo_data_9955 IMPLEMENTATION.
 
     out->write( 'Travel and booking demo data inserted.').
   ENDMETHOD.
-
 ENDCLASS.

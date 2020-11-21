@@ -12,7 +12,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_rap_eml_9955 IMPLEMENTATION.
+CLASS ZCL_RAP_EML_9955 IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 *    " step 1 - READ
 *    READ ENTITIES OF ZI_RAP_Travel_9955
